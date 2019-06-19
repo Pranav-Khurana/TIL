@@ -15,8 +15,8 @@ _2 TILs and counting..._
 
 ### Mlcourse
 
-- [Today I learned about](MLCourse/Day1.md)
-- [Today I learned about](MLCourse/Day2.md)
+- [Day1](MLCourse/Day1.md)
+- [Day2](MLCourse/Day2.md)
 
 
       
