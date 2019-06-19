@@ -2,6 +2,7 @@
 > Today-I-Learned Repository
 
 This is my 'Today-I-Learned' repository which is used to keep a record of whatever I learn in daily basis. 
+
 _1 TIL and counting..._
     
 ---
@@ -21,4 +22,4 @@ _1 TIL and counting..._
 ---
 
 ## Details
-Want to know more about TIL repositories, see [Details.md]( ADD LINK OF Details.md file) 
+Want to know more about TIL repositories, see [Details.md](https://github.com/Pranav-Khurana/TIL/blob/master/Details.md) 
