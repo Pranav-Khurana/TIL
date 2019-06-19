@@ -1,4 +1,4 @@
-# Today I learned about
+# Day2
 1. Special strings in Python
 2. Escape sequence characters
 3. Revised conditional and iterational statements
