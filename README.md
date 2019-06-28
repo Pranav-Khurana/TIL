@@ -8,22 +8,22 @@ _5 TILs and counting..._
 ---
 ## Categories
 
-* [Mlcourse](#MLCourse)
-* [Vrexperience](#VRExperience)
+* [Ml_course](#ml_course)
+* [Vr_experience](#vr_experience)
 
       
 ---
 
-### Mlcourse
+### Ml_course
 
-- [Day1](MLCourse/Day1.md)
-- [Day2](MLCourse/Day2.md)
-- [Day3](MLCourse/Day3.md)
+- [Day1](ml_course/Day1.md)
+- [Day2](ml_course/Day2.md)
+- [Day3](ml_course/Day3.md)
 
-### Vrexperience
+### Vr_experience
 
-- [Ping-Pong](VRExperience/Ping-Pong.md)
-- [Snake](VRExperience/Snake.md)
+- [Ping-Pong](vr_experience/Ping-Pong.md)
+- [Snake](vr_experience/Snake.md)
 
 
       
