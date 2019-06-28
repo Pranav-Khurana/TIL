@@ -3,7 +3,7 @@
 
 This is my 'Today-I-Learned' repository which is used to keep a record of whatever I learn in daily basis. 
 
-_4 TILs and counting..._
+_5 TILs and counting..._
     
 ---
 ## Categories
@@ -22,7 +22,8 @@ _4 TILs and counting..._
 
 ### Vrexperience
 
-- [Ping Pong Game](VRExperience/Ping-Pong.md)
+- [Ping-Pong](VRExperience/Ping-Pong.md)
+- [Snake](VRExperience/Snake.md)
 
 
       
