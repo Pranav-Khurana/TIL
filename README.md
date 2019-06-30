@@ -3,7 +3,7 @@
 
 This is my 'Today-I-Learned' repository which is used to keep a record of whatever I learn in daily basis. 
 
-_8 TILs and counting..._
+_10 TILs and counting..._
     
 ---
 ## Categories
@@ -25,6 +25,8 @@ _8 TILs and counting..._
 
 ### Vr_experience
 
+- [An-amazing-experience](vr_experience/An-amazing-experience.md)
+- [Guess-the-door](vr_experience/Guess-the-door.md)
 - [Ping-Pong](vr_experience/Ping-Pong.md)
 - [Snake](vr_experience/Snake.md)
 
