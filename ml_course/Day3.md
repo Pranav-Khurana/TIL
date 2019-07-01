@@ -3,4 +3,4 @@
 2.  Learned about List Slicing 
 3.  Discussed and got a brief knowledge about Time Complexities.
 
-The ipynb file for the same is [Lists.ipynb](https://github.com/Pranav-Khurana/TIL/blob/master/MLCourse/Lists.ipynb)
+The ipynb file for the same is [Lists.ipynb](https://github.com/Pranav-Khurana/TIL/blob/master/ml_course/ipynbfiles/Lists.ipynb)
