@@ -3,16 +3,21 @@
 
 This is my 'Today-I-Learned' repository which is used to keep a record of whatever I learn in daily basis. 
 
-_12 TILs and counting..._
+_13 TILs and counting..._
     
 ---
 ## Categories
 
+* [Linux_ubuntu](#linux_ubuntu)
 * [Ml_course](#ml_course)
 * [Vr_experience](#vr_experience)
 
       
 ---
+
+### Linux_ubuntu
+
+- [tty](linux_ubuntu/tty.md)
 
 ### Ml_course
 
