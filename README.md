@@ -3,7 +3,7 @@
 
 This is my 'Today-I-Learned' repository which is used to keep a record of whatever I learn in daily basis. 
 
-_16 TILs and counting..._
+_18 TILs and counting..._
     
 ---
 ## Categories
@@ -32,6 +32,8 @@ _16 TILs and counting..._
 - [Day7](ml_course/Day7.md)
 - [Day8](ml_course/Day8.md)
 - [Day9](ml_course/Day9.md)
+- [Task1](ml_course/Task1.md)
+- [Task2](ml_course/Task2.md)
 
 ### Vr_experience
 
