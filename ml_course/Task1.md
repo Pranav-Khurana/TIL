@@ -18,4 +18,4 @@ Assume that initially there are 10,000 rabbits and 1000 wolves. Write a program 
 1000-day period. Have the program print the populations every 25 days. See what happens when you start with 500 wolves instead
 of 1000. Try starting with 2000 wolves too.
 
-** Solution for the problem is [WolvesandRabbit.ipynb](https://github.com/Pranav-Khurana/TIL/blob/master/ml_course/ipynbfiles/WolvesandRabbit.ipynb) 
+Solution for the problem is [WolvesandRabbit.ipynb](https://github.com/Pranav-Khurana/TIL/blob/master/ml_course/ipynbfiles/WolvesandRabbit.ipynb) 
