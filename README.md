@@ -3,6 +3,7 @@
 
 This is my 'Today-I-Learned' repository which is used to keep a record of whatever I learn in daily basis. 
 
+https://img.shields.io/github/last-commit/Pranav-Khurana/TIL.svg?color=Blue&label=Last%20TIL&style=popout
 _20 TILs and counting..._
     
 ---
