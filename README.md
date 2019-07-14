@@ -21,6 +21,8 @@ This is my 'Today-I-Learned' repository which is used to keep a record of whatev
 
 ### Git_github
 
+- [Badges](git_github/Badges.md)
+- [pull_upstream](git_github/pull_upstream.md)
 
 ### Linux_ubuntu
 
