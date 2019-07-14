@@ -4,7 +4,8 @@
 This is my 'Today-I-Learned' repository which is used to keep a record of whatever I learn in daily basis. 
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/Pranav-Khurana/TIL.svg?color=blue&label=Last%20TIL&style=popout)
-_20 TILs and counting..._
+![Total TIL's](https://img.shields.io/badge/dynamic/json.svg?color=informational&label=Total%20TIL%27s&query=total_til&url=https%3A%2F%2Fraw.githubusercontent.com%2FPranav-Khurana%2FTIL%2Fmaster%2Fbadges.json)
+
     
 ---
 ## Categories

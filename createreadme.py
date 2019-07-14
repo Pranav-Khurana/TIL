@@ -9,6 +9,7 @@ HEADER = '''# T I L
 This is my 'Today-I-Learned' repository which is used to keep a record of whatever I learn in daily basis. 
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/Pranav-Khurana/TIL.svg?color=blue&label=Last%20TIL&style=popout)
+![Total TIL's](https://img.shields.io/badge/dynamic/json.svg?color=informational&label=Total%20TIL%27s&query=total_til&url=https%3A%2F%2Fraw.githubusercontent.com%2FPranav-Khurana%2FTIL%2Fmaster%2Fbadges.json)
 '''
 
 FOOTER = '''## Details
@@ -55,13 +56,9 @@ def get_category_dict (category_names):
 	return (count, categories)
 
 ''' Now we have all the information, print it out in markdown format. '''
-def print_file (category_names, count, categories):
+def print_file (category_names, categories):
 	with open ('README.md', 'w') as file:
 		file.write (HEADER)
-		if count == 1:
-			file.write ('_{0} TIL and counting..._'.format(count))
-		else:
-			file.write ('_{0} TILs and counting..._'.format(count))
 		file.write ('''
     
 ---
@@ -97,13 +94,20 @@ def print_file (category_names, count, categories):
 		file.write (FOOTER)
 
 
+def print_BADGE (til):
+	with open ('badges.json', 'w') as file:
+		st = '{ "total_til" : ' + str(til) + '}'
+		file.write('{0}'.format(st))
+
 ''' Create a TIL README.md file with a nice index for using it directly
 		from GitHub. '''
 def create_README ():
 	category_names = get_category_list ()
 	count, categories = get_category_dict (category_names)
-	print_file (category_names, count, categories)
+	print_BADGE(count)
+	print_file (category_names, categories)
 
 if __name__ == '__main__':
 	create_README ()
 	os.system('git add README.md')
+	os.system('git add badges.json')
