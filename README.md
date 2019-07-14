@@ -10,6 +10,7 @@ This is my 'Today-I-Learned' repository which is used to keep a record of whatev
 ---
 ## Categories
 
+* [Git_github](#git_github)
 * [Linux_ubuntu](#linux_ubuntu)
 * [Meetups](#meetups)
 * [Ml_course](#ml_course)
@@ -17,6 +18,9 @@ This is my 'Today-I-Learned' repository which is used to keep a record of whatev
 
       
 ---
+
+### Git_github
+
 
 ### Linux_ubuntu
 
