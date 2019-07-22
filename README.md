@@ -31,7 +31,7 @@ This is my 'Today-I-Learned' repository which is used to keep a record of whatev
 ### Meetups
 
 - [Arduino](meetups/Arduino.md)
-- [Google_dsc.md](meetups/Google_dsc.md)
+- [Google-dsc.md](meetups/Google-dsc.md)
 
 ### Ml_course
 

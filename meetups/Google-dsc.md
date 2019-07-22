@@ -1,4 +1,4 @@
-# Google_dsc.md
+# Google-dsc.md
 
 Went to the Cloud Study Jam organized by Developer Student Club of BVP, there I learnt about cloud, and GCP, also learnt and did a workshop on following things:
 
