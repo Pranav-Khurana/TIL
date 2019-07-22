@@ -10,7 +10,7 @@ Finally built my first Machine Learning based project, It took almost 2 weeks to
    5. Create ML model
    6. Train and Evaluate model
 2. Learnt to deploy the project as webpage/webpage on an online server.
-3. Learnt few linux commands as well which are [wget](), [ssh]() etc
+3. Learnt few linux commands as well which are [wget](https://github.com/Pranav-Khurana/TIL/blob/master/linux_ubuntu/wget.md), [ssh](https://github.com/Pranav-Khurana/TIL/blob/master/linux_ubuntu/ssh.md) etc
 4. Got amazing resources for creating a project from scratch till deploying it.
 5. Explored various aspects of  get/post requests, domains and sub domains.
 
