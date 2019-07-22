@@ -26,6 +26,7 @@ This is my 'Today-I-Learned' repository which is used to keep a record of whatev
 
 ### Linux_ubuntu
 
+- [history](linux_ubuntu/history.md)
 - [ssh](linux_ubuntu/ssh.md)
 - [tty](linux_ubuntu/tty.md)
 - [wget](linux_ubuntu/wget.md)
@@ -34,7 +35,6 @@ This is my 'Today-I-Learned' repository which is used to keep a record of whatev
 
 - [Arduino](meetups/Arduino.md)
 - [Google-dsc.md](meetups/Google-dsc.md)
-- [history](meetups/history.md)
 
 ### Ml_course
 
