@@ -26,6 +26,7 @@ This is my 'Today-I-Learned' repository which is used to keep a record of whatev
 
 ### Linux_ubuntu
 
+- [amazing_shortuts](linux_ubuntu/amazing_shortcuts.md)
 - [history](linux_ubuntu/history.md)
 - [ssh](linux_ubuntu/ssh.md)
 - [tty](linux_ubuntu/tty.md)
