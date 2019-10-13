@@ -190,7 +190,9 @@ tail file
 ### Display the last 10 lines of file and "follow" the file as it grows.
 tail -f file
 
-6 – PROCESS MANAGEMENT
+
+
+# 6 – PROCESS MANAGEMENT
 
 ### Display your currently running processes
 ps
