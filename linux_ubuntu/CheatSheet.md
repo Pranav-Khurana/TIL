@@ -33,6 +33,8 @@ w
 ### Who you are logged in as
 whoami
 
+
+
 # 2 – HARDWARE INFORMATION
 
 ### Display messages in kernel ring buffer
@@ -64,6 +66,8 @@ hdparm -tT /dev/sda
 
 ### Test for unreadable blocks on disk sda
 badblocks -s /dev/sda
+
+
 
 #3 – PERFORMANCE MONITORING AND STATISTICS
 
@@ -103,6 +107,8 @@ free -h
 ### Execute "df -h", showing periodic updates
 watch df -h
 
+
+
 #4 – USER INFORMATION AND MANAGEMENT
 
 ### Display the user and group ids of your current user.
@@ -128,6 +134,8 @@ userdel john
 
 ### Add the john account to the sales group
 usermod -aG sales john
+
+
 
 #5 – FILE AND DIRECTORY COMMANDS
 
@@ -217,6 +225,8 @@ fg
 ### Brings job n to the foreground
 fg n
 
+
+
 # 7 – FILE PERMISSIONS
 
 ###Linux chmod example
@@ -240,6 +250,8 @@ fg n
         w = write
         x = execute
         - = no access
+
+
 
 # 8 – NETWORKING
 
