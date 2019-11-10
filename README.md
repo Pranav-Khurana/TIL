@@ -26,6 +26,7 @@ This is my 'Today-I-Learned' repository which is used to keep a record of whatev
 
 ### Linux_ubuntu
 
+- [CheatSheet](linux_ubuntu/CheatSheet.md)
 - [amazing_shortuts](linux_ubuntu/amazing_shortcuts.md)
 - [history](linux_ubuntu/history.md)
 - [ssh](linux_ubuntu/ssh.md)
@@ -35,8 +36,8 @@ This is my 'Today-I-Learned' repository which is used to keep a record of whatev
 ### Meetups
 
 - [Arduino](meetups/Arduino.md)
-- [Convulation](meetups/facebookcircledelhi.md)
 - [Google-dsc.md](meetups/Google-dsc.md)
+- [facebookcircledelhi](meetups/facebookcircledelhi.md)
 - [mlrobogyan](meetups/mlrobogyan.md)
 
 ### Ml_course

@@ -1,237 +1,211 @@
-# 1 – SYSTEM INFORMATION
+# CheatSheet
 
 ### Display Linux system information
-uname -a
+`uname -a`
 
 ### Display kernel release information
-uname -r
-
-### Show which version of redhat installed
-cat /etc/redhat-release
+`uname -r`
 
 ### Show how long the system has been running + load
-uptime
+`uptime`
 
 ### Show system host name
-hostname
+`hostname`
 
 ### Display the IP addresses of the host
-hostname -I
+`hostname -I`
 
 ### Show system reboot history
-last reboot
+`last reboot`
 
 ### Show the current date and time
-date
+`date`
 
 ### Show this month's calendar
-cal
+`cal`
 
 ### Display who is online
-w
+`w`
 
 ### Who you are logged in as
-whoami
-
-
-
-# 2 – HARDWARE INFORMATION
+`whoami`
 
 ### Display messages in kernel ring buffer
-dmesg
+`dmesg`
 
 ### Display CPU information
-cat /proc/cpuinfo
+`cat /proc/cpuinfo`
 
 ### Display memory information
-cat /proc/meminfo
+`cat /proc/meminfo`
 
 ### Display free and used memory ( -h for human readable, -m for MB, -g for GB.)
-free -h
+`free -h`
 
 ### Display PCI devices
-lspci -tv
+`lspci -tv`
 
 ### Display USB devices
-lsusb -tv
+`lsusb -tv`
 
 ### Display DMI/SMBIOS (hardware info) from the BIOS
-dmidecode
+`dmidecode`
 
 ### Show info about disk sda
-hdparm -i /dev/sda
+`hdparm -i /dev/sda`
 
 ### Perform a read speed test on disk sda
-hdparm -tT /dev/sda
+`hdparm -tT /dev/sda`
 
 ### Test for unreadable blocks on disk sda
-badblocks -s /dev/sda
-
-
-
-#3 – PERFORMANCE MONITORING AND STATISTICS
+`badblocks -s /dev/sda`
 
 ### Display and manage the top processes
-top
+`top`
 
 ### Interactive process viewer (top alternative)
-htop
+`htop`
 
 ### Display processor related statistics
-mpstat 1
+`mpstat 1`
 
 ### Display virtual memory statistics
-vmstat 1
+`vmstat 1`
 
 ### Display I/O statistics
-iostat 1
+`iostat 1`
 
 ### Display the last 100 syslog messages  (Use /var/log/syslog for Debian based systems.)
-tail 100 /var/log/messages
+`tail 100 /var/log/messages`
 
 ### Capture and display all packets on interface eth0
-tcpdump -i eth0
+`tcpdump -i eth0`
 
 ### Monitor all traffic on port 80 ( HTTP )
-tcpdump -i eth0 'port 80'
+`tcpdump -i eth0 'port 80'`
 
 ### List all open files on the system
-lsof
+`lsof`
 
 ### List files opened by user
-lsof -u user
+`lsof -u user`
 
 ### Display free and used memory ( -h for human readable, -m for MB, -g for GB.)
-free -h
+`free -h`
 
 ### Execute "df -h", showing periodic updates
-watch df -h
-
-
-
-#4 – USER INFORMATION AND MANAGEMENT
+`watch df -h`
 
 ### Display the user and group ids of your current user.
-id
+`id`
 
 ### Display the last users who have logged onto the system.
-last
+`last`
 
 ### Show who is logged into the system.
-who
+`who`
 
 ### Show who is logged in and what they are doing.
-w
+`w`
 
 ### Create a group named "test".
-groupadd test
+`groupadd test`
 
 ### Create an account named john, with a comment of "John Smith" and create the user's home directory.
-useradd -c "John Smith" -m john
+`useradd -c "John Smith" -m john`
 
 ### Delete the john account.
-userdel john
+`userdel john`
 
 ### Add the john account to the sales group
-usermod -aG sales john
-
-
-
-#5 – FILE AND DIRECTORY COMMANDS
+`usermod -aG sales john`
 
 ### List all files in a long listing (detailed) format
-ls -al
+`ls -al`
 
 ### Display the present working directory
-pwd
+`pwd`
 
 ### Create a directory
-mkdir directory
+`mkdir directory`
 
 ### Remove (delete) file
-rm file
+`rm file`
 
 ### Remove the directory and its contents recursively
-rm -r directory
+`rm -r directory`
 
 ### Force removal of file without prompting for confirmation
-rm -f file
+`rm -f file`
 
 ### Forcefully remove directory recursively
-rm -rf directory
+`rm -rf directory`
 
 ### Copy file1 to file2
-cp file1 file2
+`cp file1 file2`
 
 ### Copy source_directory recursively to destination. If destination exists, copy source_directory into destination, otherwise create destination with the contents of source_directory.
-cp -r source_directory destination
+`cp -r source_directory destination`
 
 ### Rename or move file1 to file2. If file2 is an existing directory, move file1 into directory file2
-mv file1 file2
+`mv file1 file2`
 
 ### Create symbolic link to linkname
-ln -s /path/to/file linkname
+`ln -s /path/to/file linkname`
 
 ### Create an empty file or update the access and modification times of file.
-touch file
+`touch file`
 
 ### View the contents of file
-cat file
+`cat file`
 
 ### Browse through a text file
-less file
+`less file`
 
 ### Display the first 10 lines of file
-head file
+`head file`
 
 ### Display the last 10 lines of file
-tail file
+`tail file`
 
 ### Display the last 10 lines of file and "follow" the file as it grows.
-tail -f file
-
-
-
-# 6 – PROCESS MANAGEMENT
+`tail -f file`
 
 ### Display your currently running processes
-ps
+`ps`
 
 ### Display all the currently running processes on the system.
-ps -ef
+`ps -ef`
 
 ### Display process information for processname
-ps -ef | grep processname
+`ps -ef | grep processname`
 
 ### Display and manage the top processes
-top
+`top`
 
 ### Interactive process viewer (top alternative)
-htop
+`htop`
 
 ### Kill process with process ID of pid
-kill pid
+`kill pid`
 
 ### Kill all processes named processname
-killall processname
+`killall processname`
 
 ### Start program in the background
-program &
+`program &`
 
 ### Display stopped or background jobs
-bg
+`bg`
 
 ### Brings the most recent background job to foreground
-fg
+`fg`
 
 ### Brings job n to the foreground
-fg n
+`fg n`
 
 
-
-# 7 – FILE PERMISSIONS
-
-###Linux chmod example
+### Linux chmod example
         PERMISSION      EXAMPLE
 
          U   G   W
@@ -241,7 +215,7 @@ fg n
         rw- rw- r--     chmod 664 filename
         rw- r-- r--     chmod 644 filename
 
-## NOTE: Use 777 sparingly!
+**NOTE: Use 777 sparingly!**
 
         LEGEND
         U = User
@@ -255,34 +229,32 @@ fg n
 
 
 
-# 8 – NETWORKING
-
 ### Display all network interfaces and ip address
-ifconfig -a
+`ifconfig -a`
 
 ### Display eth0 address and details
-ifconfig eth0
+`ifconfig eth0`
 
 ### Query or control network driver and hardware settings
-ethtool eth0
+`ethtool eth0`
 
 ### Send ICMP echo request to host
-ping host
+`ping host`
 
 ### Display whois information for domain
-whois domain
+`whois domain`
 
 ### Display DNS information for domain
-dig domain
+`dig domain`
 
 ### Reverse lookup of IP_ADDRESS
-dig -x IP_ADDRESS
+`dig -x IP_ADDRESS`
 
 ### Display DNS ip address for domain
-host domain
+`host domain`
 
 ### Display the network address of the host name.
-hostname -i
+`hostname -i`
 
 ### Display all local ip addresses
-hostname -I
+`hostname -I`
